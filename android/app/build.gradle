@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.rnscaffoldtmp"
+    namespace "com.terminal.simple"
     defaultConfig {
-        applicationId "com.rnscaffoldtmp"
+        applicationId "com.terminal.simple"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
