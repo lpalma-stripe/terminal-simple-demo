@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+      CONNECTED_ACCOUNT: ${{ vars.CONNECTED_ACCOUNT }}
     steps:
       - uses: actions/checkout@v4
 

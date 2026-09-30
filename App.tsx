@@ -6,7 +6,7 @@ import {
 } from '@stripe/stripe-terminal-react-native';
 
 const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY as string;
-const CONNECTED_ACCOUNT_ID = 'acct_1UKsb7L7L3G9Exr6';
+const CONNECTED_ACCOUNT_ID = process.env.CONNECTED_ACCOUNT as string;
 
 async function fetchConnectionToken(): Promise<string> {
   const response = await fetch('https://api.stripe.com/v1/terminal/connection_tokens', {
