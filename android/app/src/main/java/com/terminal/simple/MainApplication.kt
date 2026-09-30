@@ -1,4 +1,4 @@
-package com.rnscaffoldtmp
+package com.terminal.simple
 
 import android.app.Application
 import com.facebook.react.PackageList
